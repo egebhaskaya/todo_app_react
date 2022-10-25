@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: yellow;
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+.AddAreaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.AddArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px;
+}
+.TextInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.TextareaInput {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.TodoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: yellow;
+  width: 15%;
+}
